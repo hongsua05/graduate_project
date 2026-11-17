@@ -1,0 +1,37 @@
+{
+  "channels": [
+    "Fp1",
+    "F7",
+    "T7",
+    "P7",
+    "Fp2",
+    "F8",
+    "T8",
+    "P8",
+    "F3",
+    "C3",
+    "P3",
+    "F4",
+    "C4",
+    "P4",
+    "Cz",
+    "Pz"
+  ],
+  "fs": 256,
+  "window": 256,
+  "step": 128,
+  "seg": [
+    0.5,
+    3.5
+  ],
+  "bands": 4,
+  "use_car": true,
+  "l2": 0.0003,
+  "heads": 4,
+  "norm": "per-subject z-score over windows (label-free)",
+  "label_map": {
+    "left": 0,
+    "right": 1
+  },
+  "weights": "phys_best.weights.h5"
+}
